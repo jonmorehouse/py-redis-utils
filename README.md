@@ -1,6 +1,8 @@
 Py-Redis-Utils
 ==============
 
+Useful when a seeded redis database is needed during test-cycles
+
 Overview
 --------
 

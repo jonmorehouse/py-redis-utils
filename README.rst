@@ -12,4 +12,5 @@ Overview
 -  reset - clear + seed
 -  This is good for any testing environment and works well in a setup /
    breadkown Nose testing environment
+-  cli -- to load / dump data from command line
 
