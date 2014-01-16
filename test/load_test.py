@@ -18,7 +18,7 @@ class TestLoad(BaseTest):
 
 		redis.set("TEST", "TEST JON")
 		
-		print redis.dump("TEST")
+		#print redis.dump("TEST")
 
 		pass
 

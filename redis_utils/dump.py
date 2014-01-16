@@ -1,6 +1,6 @@
 import bootstrap
 
-def get_key(redis, key):
+def get_key(key, redis):
 
 	value = (
 		
@@ -48,6 +48,8 @@ def dump(**kw):
 
 		# breakdown  test environment here
 		bootstrap.breakdown(**kw)
+
+		return dump_data
 
 
 
