@@ -50,4 +50,3 @@ class TestDump(BaseTest):
 		# now lets clean up after ourselves here ... 
 		os.remove(path)
 
-
