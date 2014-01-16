@@ -9,7 +9,8 @@ class TestClear(object):
 
 	def testClear(self):
 
-
-		print "TEST CLEAR HERE"
+		print "Setup tools tests are running properly. This should fail ..."
+		assert False
+		assert None
 
 

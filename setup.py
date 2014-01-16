@@ -29,8 +29,6 @@ with open("test-requirements.txt", "r") as f:
 
 	test_requirements = f.read().splitlines()
 
-print test_requirements
-
 # setup project 
 setup(
 	name="redis-utils",
@@ -43,7 +41,6 @@ setup(
 	keywords = ["redis", "utilities"],
 	license = "MIT",
 	packages = ["redis_utils"],
-	include_package_data = True,
 	install_requires = installation_requirements,
 	tests_require = test_requirements,
 	test_suite = "nose.collector",
