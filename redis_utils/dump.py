@@ -1,4 +1,5 @@
 import bootstrap
+import pickle
 
 def get_key(key, redis):
 
@@ -23,8 +24,7 @@ def dump_to_file(path, **kw):
 	else:
 
 		# pickle data here
-		
-		pass
+		pickle.dump(dump_data, open(path, "wb"))
 
 def dump(**kw):
 
