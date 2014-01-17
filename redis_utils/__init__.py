@@ -1,7 +1,9 @@
-# initialize version
-with open("version", "r") as f:
+import os
+directory = os.path.dirname(os.path.realpath(__file__))
+
+with open("%s/version" % directory, "r") as f:
     
-    VERSION = tuple(map(int, f.read().split()))
+    VERSION = f.read()
 
 from clear import clear
 from dump import dump, dump_to_file
