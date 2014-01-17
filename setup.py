@@ -3,7 +3,7 @@ import os
 import sys
 
 # import utilities version etc
-from redis_utils import __version__
+
 
 # import setuptools as needed
 try:

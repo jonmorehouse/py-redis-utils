@@ -1,6 +1,8 @@
 # initialize version
-__version__ = "0.0.1"
-VERSION = tuple(map(int, __version__.split('.')))
+with open("version", "r") as f:
+    
+
+VERSION = tuple(map(int, f.read().split()))
 
 from clear import clear
 from dump import dump, dump_to_file
