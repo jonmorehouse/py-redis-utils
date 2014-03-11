@@ -46,7 +46,6 @@ setup(
         install_requires = installation_requirements,
         tests_require = test_requirements,
         test_suite = "nose.collector",
-
         classifiers=[
                 'Development Status :: 4 - Beta',
                 'Environment :: Console',
@@ -62,3 +61,4 @@ setup(
                 'Programming Language :: Python :: 3.3',
         ]
 )
+
