@@ -5,7 +5,7 @@ import sys
 # import utilities version etc
 with open("redis_utils/version", "r") as f: 
     
-        version = f.read()
+        version = f.read().strip()
 
 # import setuptools as needed
 try:
